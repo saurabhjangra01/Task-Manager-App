@@ -9,7 +9,7 @@ const errorHandler = require('./middlewares/error-handler');
 
 
 // middlewares
-// app.use(express.static('./'));      // this is used to serve our static files
+app.use(express.static('./frontend'))      // this is used to serve our static files
 app.use(express.json());            // we get data in req.body because of this
 
 
